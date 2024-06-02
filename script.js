@@ -27,7 +27,7 @@ addBtn.addEventListener("click", function () {
   li.appendChild(label);
   input.value = "";
 
-  image.src = "images/trash-icon.svg";
+  image.src = "trash-icon.svg";
   image.alt = "ゴミ箱アイコン";
   image.classList.add("trash-icon");
   image.setAttribute("data-trash", liCount + 1);
